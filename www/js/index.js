@@ -52,7 +52,7 @@ function shake(){
     navigator.vibrate(3000);
 }
 
-function cameraCallBack(){
+function cameraCallBack(imageData){
     var image = document.getElementById('myimage');
     image.src = imageData;
 }    
