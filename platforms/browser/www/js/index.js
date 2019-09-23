@@ -53,7 +53,7 @@ function shake(){
 }
 
 function cameraCallBack(){
-    var image = document.getElementById('myImage');
+    var image = document.getElementById('myimage');
     image.src = imageData;
 }    
 
